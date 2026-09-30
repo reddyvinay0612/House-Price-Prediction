@@ -1,0 +1,1502 @@
+{
+  "bengaluru urban": {
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "tier": "Tier-1",
+    "current_rate_sqft": 6850,
+    "cagr_percent": 11.2,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 7617,
+        "optimistic_rate_sqft": 7788,
+        "cautious_rate_sqft": 7480,
+        "projected_2bhk_lakhs": 83.4
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 8470,
+        "optimistic_rate_sqft": 8855,
+        "cautious_rate_sqft": 8168,
+        "projected_2bhk_lakhs": 92.7
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 9419,
+        "optimistic_rate_sqft": 10069,
+        "cautious_rate_sqft": 8920,
+        "projected_2bhk_lakhs": 103.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 10474,
+        "optimistic_rate_sqft": 11448,
+        "cautious_rate_sqft": 9740,
+        "projected_2bhk_lakhs": 114.7
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 11647,
+        "optimistic_rate_sqft": 13016,
+        "cautious_rate_sqft": 10637,
+        "projected_2bhk_lakhs": 127.5
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "bengaluru rural": {
+    "district": "Bengaluru Rural",
+    "state": "Karnataka",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4200,
+    "cagr_percent": 8.5,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4557,
+        "optimistic_rate_sqft": 4662,
+        "cautious_rate_sqft": 4473,
+        "projected_2bhk_lakhs": 52.1
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4944,
+        "optimistic_rate_sqft": 5175,
+        "cautious_rate_sqft": 4764,
+        "projected_2bhk_lakhs": 56.5
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5365,
+        "optimistic_rate_sqft": 5744,
+        "cautious_rate_sqft": 5073,
+        "projected_2bhk_lakhs": 61.3
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5821,
+        "optimistic_rate_sqft": 6376,
+        "cautious_rate_sqft": 5403,
+        "projected_2bhk_lakhs": 66.5
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 6315,
+        "optimistic_rate_sqft": 7077,
+        "cautious_rate_sqft": 5754,
+        "projected_2bhk_lakhs": 72.2
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "mysuru (mysore)": {
+    "district": "Mysuru (Mysore)",
+    "state": "Karnataka",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3800,
+    "cagr_percent": 7.8,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4096,
+        "optimistic_rate_sqft": 4191,
+        "cautious_rate_sqft": 4020,
+        "projected_2bhk_lakhs": 45.3
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4416,
+        "optimistic_rate_sqft": 4623,
+        "cautious_rate_sqft": 4254,
+        "projected_2bhk_lakhs": 48.8
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4760,
+        "optimistic_rate_sqft": 5099,
+        "cautious_rate_sqft": 4500,
+        "projected_2bhk_lakhs": 52.6
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5132,
+        "optimistic_rate_sqft": 5625,
+        "cautious_rate_sqft": 4761,
+        "projected_2bhk_lakhs": 56.7
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5532,
+        "optimistic_rate_sqft": 6204,
+        "cautious_rate_sqft": 5037,
+        "projected_2bhk_lakhs": 61.1
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "mangaluru (mangalore)": {
+    "district": "Mangaluru (Mangalore)",
+    "state": "Karnataka",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4400,
+    "cagr_percent": 6.9,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4704,
+        "optimistic_rate_sqft": 4814,
+        "cautious_rate_sqft": 4616,
+        "projected_2bhk_lakhs": 53.4
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 5028,
+        "optimistic_rate_sqft": 5266,
+        "cautious_rate_sqft": 4842,
+        "projected_2bhk_lakhs": 57.1
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5375,
+        "optimistic_rate_sqft": 5761,
+        "cautious_rate_sqft": 5079,
+        "projected_2bhk_lakhs": 61.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5746,
+        "optimistic_rate_sqft": 6303,
+        "cautious_rate_sqft": 5328,
+        "projected_2bhk_lakhs": 65.3
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 6142,
+        "optimistic_rate_sqft": 6895,
+        "cautious_rate_sqft": 5589,
+        "projected_2bhk_lakhs": 69.8
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "hubballi-dharwad": {
+    "district": "Hubballi-Dharwad",
+    "state": "Karnataka",
+    "tier": "Tier-3",
+    "current_rate_sqft": 3200,
+    "cagr_percent": 5.5,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 3376,
+        "optimistic_rate_sqft": 3456,
+        "cautious_rate_sqft": 3312,
+        "projected_2bhk_lakhs": 36.9
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 3562,
+        "optimistic_rate_sqft": 3732,
+        "cautious_rate_sqft": 3428,
+        "projected_2bhk_lakhs": 39.0
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 3758,
+        "optimistic_rate_sqft": 4031,
+        "cautious_rate_sqft": 3548,
+        "projected_2bhk_lakhs": 41.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 3964,
+        "optimistic_rate_sqft": 4354,
+        "cautious_rate_sqft": 3672,
+        "projected_2bhk_lakhs": 43.4
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 4182,
+        "optimistic_rate_sqft": 4702,
+        "cautious_rate_sqft": 3801,
+        "projected_2bhk_lakhs": 45.7
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "belagavi (belgaum)": {
+    "district": "Belagavi (Belgaum)",
+    "state": "Karnataka",
+    "tier": "Tier-3",
+    "current_rate_sqft": 2900,
+    "cagr_percent": 5.1,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 3048,
+        "optimistic_rate_sqft": 3120,
+        "cautious_rate_sqft": 2990,
+        "projected_2bhk_lakhs": 33.6
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 3203,
+        "optimistic_rate_sqft": 3358,
+        "cautious_rate_sqft": 3083,
+        "projected_2bhk_lakhs": 35.3
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 3367,
+        "optimistic_rate_sqft": 3613,
+        "cautious_rate_sqft": 3178,
+        "projected_2bhk_lakhs": 37.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 3538,
+        "optimistic_rate_sqft": 3887,
+        "cautious_rate_sqft": 3277,
+        "projected_2bhk_lakhs": 39.0
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 3719,
+        "optimistic_rate_sqft": 4183,
+        "cautious_rate_sqft": 3378,
+        "projected_2bhk_lakhs": 41.0
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "mumbai city": {
+    "district": "Mumbai City",
+    "state": "Maharashtra",
+    "tier": "Tier-1",
+    "current_rate_sqft": 24500,
+    "cagr_percent": 6.5,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 26092,
+        "optimistic_rate_sqft": 26705,
+        "cautious_rate_sqft": 25602,
+        "projected_2bhk_lakhs": 255.6
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 27789,
+        "optimistic_rate_sqft": 29108,
+        "cautious_rate_sqft": 26755,
+        "projected_2bhk_lakhs": 272.2
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 29595,
+        "optimistic_rate_sqft": 31728,
+        "cautious_rate_sqft": 27959,
+        "projected_2bhk_lakhs": 289.9
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 31518,
+        "optimistic_rate_sqft": 34584,
+        "cautious_rate_sqft": 29217,
+        "projected_2bhk_lakhs": 308.8
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 33567,
+        "optimistic_rate_sqft": 37696,
+        "cautious_rate_sqft": 30531,
+        "projected_2bhk_lakhs": 328.8
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "mumbai suburban": {
+    "district": "Mumbai Suburban",
+    "state": "Maharashtra",
+    "tier": "Tier-1",
+    "current_rate_sqft": 18200,
+    "cagr_percent": 7.2,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 19510,
+        "optimistic_rate_sqft": 19965,
+        "cautious_rate_sqft": 19146,
+        "projected_2bhk_lakhs": 176.9
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 20915,
+        "optimistic_rate_sqft": 21902,
+        "cautious_rate_sqft": 20142,
+        "projected_2bhk_lakhs": 189.6
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 22421,
+        "optimistic_rate_sqft": 24027,
+        "cautious_rate_sqft": 21189,
+        "projected_2bhk_lakhs": 203.3
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 24035,
+        "optimistic_rate_sqft": 26357,
+        "cautious_rate_sqft": 22291,
+        "projected_2bhk_lakhs": 217.9
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 25766,
+        "optimistic_rate_sqft": 28914,
+        "cautious_rate_sqft": 23450,
+        "projected_2bhk_lakhs": 233.6
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "pune": {
+    "district": "Pune",
+    "state": "Maharashtra",
+    "tier": "Tier-1",
+    "current_rate_sqft": 6400,
+    "cagr_percent": 9.4,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 7002,
+        "optimistic_rate_sqft": 7162,
+        "cautious_rate_sqft": 6874,
+        "projected_2bhk_lakhs": 74.4
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 7660,
+        "optimistic_rate_sqft": 8014,
+        "cautious_rate_sqft": 7382,
+        "projected_2bhk_lakhs": 81.4
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 8380,
+        "optimistic_rate_sqft": 8967,
+        "cautious_rate_sqft": 7929,
+        "projected_2bhk_lakhs": 89.0
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 9167,
+        "optimistic_rate_sqft": 10035,
+        "cautious_rate_sqft": 8515,
+        "projected_2bhk_lakhs": 97.4
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 10029,
+        "optimistic_rate_sqft": 11229,
+        "cautious_rate_sqft": 9145,
+        "projected_2bhk_lakhs": 106.6
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "thane": {
+    "district": "Thane",
+    "state": "Maharashtra",
+    "tier": "Tier-1",
+    "current_rate_sqft": 11200,
+    "cagr_percent": 8.1,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 12107,
+        "optimistic_rate_sqft": 12387,
+        "cautious_rate_sqft": 11883,
+        "projected_2bhk_lakhs": 113.5
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 13088,
+        "optimistic_rate_sqft": 13700,
+        "cautious_rate_sqft": 12608,
+        "projected_2bhk_lakhs": 122.7
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 14148,
+        "optimistic_rate_sqft": 15152,
+        "cautious_rate_sqft": 13377,
+        "projected_2bhk_lakhs": 132.6
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 15294,
+        "optimistic_rate_sqft": 16759,
+        "cautious_rate_sqft": 14193,
+        "projected_2bhk_lakhs": 143.4
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 16533,
+        "optimistic_rate_sqft": 18535,
+        "cautious_rate_sqft": 15059,
+        "projected_2bhk_lakhs": 155.0
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "nagpur": {
+    "district": "Nagpur",
+    "state": "Maharashtra",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3600,
+    "cagr_percent": 7.4,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 3866,
+        "optimistic_rate_sqft": 3956,
+        "cautious_rate_sqft": 3794,
+        "projected_2bhk_lakhs": 40.8
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4153,
+        "optimistic_rate_sqft": 4348,
+        "cautious_rate_sqft": 3999,
+        "projected_2bhk_lakhs": 43.8
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4460,
+        "optimistic_rate_sqft": 4779,
+        "cautious_rate_sqft": 4215,
+        "projected_2bhk_lakhs": 47.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 4790,
+        "optimistic_rate_sqft": 5252,
+        "cautious_rate_sqft": 4443,
+        "projected_2bhk_lakhs": 50.6
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5144,
+        "optimistic_rate_sqft": 5772,
+        "cautious_rate_sqft": 4683,
+        "projected_2bhk_lakhs": 54.3
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "nashik": {
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3400,
+    "cagr_percent": 6.2,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 3611,
+        "optimistic_rate_sqft": 3696,
+        "cautious_rate_sqft": 3543,
+        "projected_2bhk_lakhs": 38.2
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 3835,
+        "optimistic_rate_sqft": 4017,
+        "cautious_rate_sqft": 3692,
+        "projected_2bhk_lakhs": 40.6
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4072,
+        "optimistic_rate_sqft": 4367,
+        "cautious_rate_sqft": 3847,
+        "projected_2bhk_lakhs": 43.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 4325,
+        "optimistic_rate_sqft": 4747,
+        "cautious_rate_sqft": 4008,
+        "projected_2bhk_lakhs": 45.8
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 4593,
+        "optimistic_rate_sqft": 5160,
+        "cautious_rate_sqft": 4177,
+        "projected_2bhk_lakhs": 48.6
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "new delhi": {
+    "district": "New Delhi",
+    "state": "Delhi-NCR",
+    "tier": "Tier-1",
+    "current_rate_sqft": 14500,
+    "cagr_percent": 8.8,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 15776,
+        "optimistic_rate_sqft": 16138,
+        "cautious_rate_sqft": 15486,
+        "projected_2bhk_lakhs": 163.2
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 17164,
+        "optimistic_rate_sqft": 17962,
+        "cautious_rate_sqft": 16539,
+        "projected_2bhk_lakhs": 177.6
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 18675,
+        "optimistic_rate_sqft": 19992,
+        "cautious_rate_sqft": 17664,
+        "projected_2bhk_lakhs": 193.2
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 20318,
+        "optimistic_rate_sqft": 22251,
+        "cautious_rate_sqft": 18865,
+        "projected_2bhk_lakhs": 210.2
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 22106,
+        "optimistic_rate_sqft": 24765,
+        "cautious_rate_sqft": 20148,
+        "projected_2bhk_lakhs": 228.7
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "gurugram": {
+    "district": "Gurugram",
+    "state": "Haryana (NCR)",
+    "tier": "Tier-1",
+    "current_rate_sqft": 9200,
+    "cagr_percent": 12.4,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 10341,
+        "optimistic_rate_sqft": 10571,
+        "cautious_rate_sqft": 10157,
+        "projected_2bhk_lakhs": 110.2
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 11623,
+        "optimistic_rate_sqft": 12146,
+        "cautious_rate_sqft": 11213,
+        "projected_2bhk_lakhs": 123.8
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 13064,
+        "optimistic_rate_sqft": 13956,
+        "cautious_rate_sqft": 12379,
+        "projected_2bhk_lakhs": 139.2
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 14684,
+        "optimistic_rate_sqft": 16035,
+        "cautious_rate_sqft": 13667,
+        "projected_2bhk_lakhs": 156.4
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 16505,
+        "optimistic_rate_sqft": 18424,
+        "cautious_rate_sqft": 15088,
+        "projected_2bhk_lakhs": 175.8
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "gautam buddha nagar (noida)": {
+    "district": "Gautam Buddha Nagar (Noida)",
+    "state": "Uttar Pradesh (NCR)",
+    "tier": "Tier-1",
+    "current_rate_sqft": 7400,
+    "cagr_percent": 11.8,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 8273,
+        "optimistic_rate_sqft": 8458,
+        "cautious_rate_sqft": 8125,
+        "projected_2bhk_lakhs": 80.5
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 9249,
+        "optimistic_rate_sqft": 9668,
+        "cautious_rate_sqft": 8921,
+        "projected_2bhk_lakhs": 90.0
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 10341,
+        "optimistic_rate_sqft": 11050,
+        "cautious_rate_sqft": 9796,
+        "projected_2bhk_lakhs": 100.6
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 11561,
+        "optimistic_rate_sqft": 12630,
+        "cautious_rate_sqft": 10756,
+        "projected_2bhk_lakhs": 112.5
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 12925,
+        "optimistic_rate_sqft": 14437,
+        "cautious_rate_sqft": 11810,
+        "projected_2bhk_lakhs": 125.8
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "hyderabad": {
+    "district": "Hyderabad",
+    "state": "Telangana",
+    "tier": "Tier-1",
+    "current_rate_sqft": 6100,
+    "cagr_percent": 10.6,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 6747,
+        "optimistic_rate_sqft": 6899,
+        "cautious_rate_sqft": 6625,
+        "projected_2bhk_lakhs": 71.9
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 7462,
+        "optimistic_rate_sqft": 7803,
+        "cautious_rate_sqft": 7194,
+        "projected_2bhk_lakhs": 79.5
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 8253,
+        "optimistic_rate_sqft": 8825,
+        "cautious_rate_sqft": 7813,
+        "projected_2bhk_lakhs": 87.9
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 9127,
+        "optimistic_rate_sqft": 9981,
+        "cautious_rate_sqft": 8485,
+        "projected_2bhk_lakhs": 97.3
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 10095,
+        "optimistic_rate_sqft": 11289,
+        "cautious_rate_sqft": 9215,
+        "projected_2bhk_lakhs": 107.6
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "chennai": {
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "tier": "Tier-1",
+    "current_rate_sqft": 6300,
+    "cagr_percent": 7.1,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 6747,
+        "optimistic_rate_sqft": 6905,
+        "cautious_rate_sqft": 6621,
+        "projected_2bhk_lakhs": 72.8
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 7226,
+        "optimistic_rate_sqft": 7568,
+        "cautious_rate_sqft": 6959,
+        "projected_2bhk_lakhs": 78.0
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 7739,
+        "optimistic_rate_sqft": 8294,
+        "cautious_rate_sqft": 7314,
+        "projected_2bhk_lakhs": 83.5
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 8289,
+        "optimistic_rate_sqft": 9090,
+        "cautious_rate_sqft": 7687,
+        "projected_2bhk_lakhs": 89.5
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 8877,
+        "optimistic_rate_sqft": 9963,
+        "cautious_rate_sqft": 8079,
+        "projected_2bhk_lakhs": 95.8
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "kolkata": {
+    "district": "Kolkata",
+    "state": "West Bengal",
+    "tier": "Tier-1",
+    "current_rate_sqft": 4800,
+    "cagr_percent": 5.8,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 5078,
+        "optimistic_rate_sqft": 5198,
+        "cautious_rate_sqft": 4982,
+        "projected_2bhk_lakhs": 55.0
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 5373,
+        "optimistic_rate_sqft": 5630,
+        "cautious_rate_sqft": 5172,
+        "projected_2bhk_lakhs": 58.2
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5685,
+        "optimistic_rate_sqft": 6097,
+        "cautious_rate_sqft": 5368,
+        "projected_2bhk_lakhs": 61.6
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 6014,
+        "optimistic_rate_sqft": 6603,
+        "cautious_rate_sqft": 5572,
+        "projected_2bhk_lakhs": 65.2
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 6363,
+        "optimistic_rate_sqft": 7151,
+        "cautious_rate_sqft": 5784,
+        "projected_2bhk_lakhs": 68.9
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "ahmedabad": {
+    "district": "Ahmedabad",
+    "state": "Gujarat",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4500,
+    "cagr_percent": 8.3,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4874,
+        "optimistic_rate_sqft": 4986,
+        "cautious_rate_sqft": 4784,
+        "projected_2bhk_lakhs": 52.0
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 5278,
+        "optimistic_rate_sqft": 5524,
+        "cautious_rate_sqft": 5085,
+        "projected_2bhk_lakhs": 56.3
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5716,
+        "optimistic_rate_sqft": 6121,
+        "cautious_rate_sqft": 5405,
+        "projected_2bhk_lakhs": 61.0
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 6191,
+        "optimistic_rate_sqft": 6782,
+        "cautious_rate_sqft": 5746,
+        "projected_2bhk_lakhs": 66.0
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 6704,
+        "optimistic_rate_sqft": 7515,
+        "cautious_rate_sqft": 6108,
+        "projected_2bhk_lakhs": 71.5
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "jaipur": {
+    "district": "Jaipur",
+    "state": "Rajasthan",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3900,
+    "cagr_percent": 7.5,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4192,
+        "optimistic_rate_sqft": 4290,
+        "cautious_rate_sqft": 4114,
+        "projected_2bhk_lakhs": 43.0
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4507,
+        "optimistic_rate_sqft": 4719,
+        "cautious_rate_sqft": 4341,
+        "projected_2bhk_lakhs": 46.2
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4845,
+        "optimistic_rate_sqft": 5191,
+        "cautious_rate_sqft": 4580,
+        "projected_2bhk_lakhs": 49.7
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5208,
+        "optimistic_rate_sqft": 5710,
+        "cautious_rate_sqft": 4831,
+        "projected_2bhk_lakhs": 53.4
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5599,
+        "optimistic_rate_sqft": 6281,
+        "cautious_rate_sqft": 5097,
+        "projected_2bhk_lakhs": 57.4
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "lucknow": {
+    "district": "Lucknow",
+    "state": "Uttar Pradesh",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3850,
+    "cagr_percent": 8.2,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4166,
+        "optimistic_rate_sqft": 4262,
+        "cautious_rate_sqft": 4089,
+        "projected_2bhk_lakhs": 43.3
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4507,
+        "optimistic_rate_sqft": 4718,
+        "cautious_rate_sqft": 4342,
+        "projected_2bhk_lakhs": 46.8
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4877,
+        "optimistic_rate_sqft": 5223,
+        "cautious_rate_sqft": 4611,
+        "projected_2bhk_lakhs": 50.7
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5277,
+        "optimistic_rate_sqft": 5782,
+        "cautious_rate_sqft": 4897,
+        "projected_2bhk_lakhs": 54.8
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5709,
+        "optimistic_rate_sqft": 6400,
+        "cautious_rate_sqft": 5201,
+        "projected_2bhk_lakhs": 59.3
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "kochi (ernakulam)": {
+    "district": "Kochi (Ernakulam)",
+    "state": "Kerala",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4900,
+    "cagr_percent": 6.8,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 5233,
+        "optimistic_rate_sqft": 5356,
+        "cautious_rate_sqft": 5135,
+        "projected_2bhk_lakhs": 57.7
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 5589,
+        "optimistic_rate_sqft": 5854,
+        "cautious_rate_sqft": 5382,
+        "projected_2bhk_lakhs": 61.6
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5969,
+        "optimistic_rate_sqft": 6398,
+        "cautious_rate_sqft": 5640,
+        "projected_2bhk_lakhs": 65.8
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 6375,
+        "optimistic_rate_sqft": 6993,
+        "cautious_rate_sqft": 5911,
+        "projected_2bhk_lakhs": 70.3
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 6809,
+        "optimistic_rate_sqft": 7644,
+        "cautious_rate_sqft": 6194,
+        "projected_2bhk_lakhs": 75.0
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "chandigarh": {
+    "district": "Chandigarh",
+    "state": "Chandigarh UT",
+    "tier": "Tier-2",
+    "current_rate_sqft": 6700,
+    "cagr_percent": 7.0,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 7169,
+        "optimistic_rate_sqft": 7336,
+        "cautious_rate_sqft": 7035,
+        "projected_2bhk_lakhs": 74.9
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 7671,
+        "optimistic_rate_sqft": 8033,
+        "cautious_rate_sqft": 7387,
+        "projected_2bhk_lakhs": 80.1
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 8208,
+        "optimistic_rate_sqft": 8797,
+        "cautious_rate_sqft": 7756,
+        "projected_2bhk_lakhs": 85.8
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 8782,
+        "optimistic_rate_sqft": 9632,
+        "cautious_rate_sqft": 8144,
+        "projected_2bhk_lakhs": 91.8
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 9397,
+        "optimistic_rate_sqft": 10547,
+        "cautious_rate_sqft": 8551,
+        "projected_2bhk_lakhs": 98.2
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "indore": {
+    "district": "Indore",
+    "state": "Madhya Pradesh",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3800,
+    "cagr_percent": 8.7,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4131,
+        "optimistic_rate_sqft": 4226,
+        "cautious_rate_sqft": 4055,
+        "projected_2bhk_lakhs": 42.4
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4490,
+        "optimistic_rate_sqft": 4699,
+        "cautious_rate_sqft": 4326,
+        "projected_2bhk_lakhs": 46.1
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4881,
+        "optimistic_rate_sqft": 5225,
+        "cautious_rate_sqft": 4616,
+        "projected_2bhk_lakhs": 50.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5305,
+        "optimistic_rate_sqft": 5810,
+        "cautious_rate_sqft": 4925,
+        "projected_2bhk_lakhs": 54.4
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5767,
+        "optimistic_rate_sqft": 6461,
+        "cautious_rate_sqft": 5255,
+        "projected_2bhk_lakhs": 59.2
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "visakhapatnam": {
+    "district": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4100,
+    "cagr_percent": 7.3,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4399,
+        "optimistic_rate_sqft": 4502,
+        "cautious_rate_sqft": 4317,
+        "projected_2bhk_lakhs": 47.2
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4720,
+        "optimistic_rate_sqft": 4943,
+        "cautious_rate_sqft": 4546,
+        "projected_2bhk_lakhs": 50.7
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5065,
+        "optimistic_rate_sqft": 5427,
+        "cautious_rate_sqft": 4787,
+        "projected_2bhk_lakhs": 54.4
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5435,
+        "optimistic_rate_sqft": 5959,
+        "cautious_rate_sqft": 5041,
+        "projected_2bhk_lakhs": 58.3
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5832,
+        "optimistic_rate_sqft": 6543,
+        "cautious_rate_sqft": 5308,
+        "projected_2bhk_lakhs": 62.6
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "coimbatore": {
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4200,
+    "cagr_percent": 6.4,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4469,
+        "optimistic_rate_sqft": 4574,
+        "cautious_rate_sqft": 4385,
+        "projected_2bhk_lakhs": 47.9
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4755,
+        "optimistic_rate_sqft": 4981,
+        "cautious_rate_sqft": 4578,
+        "projected_2bhk_lakhs": 50.9
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5059,
+        "optimistic_rate_sqft": 5424,
+        "cautious_rate_sqft": 4779,
+        "projected_2bhk_lakhs": 54.2
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5383,
+        "optimistic_rate_sqft": 5907,
+        "cautious_rate_sqft": 4989,
+        "projected_2bhk_lakhs": 57.7
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5727,
+        "optimistic_rate_sqft": 6433,
+        "cautious_rate_sqft": 5209,
+        "projected_2bhk_lakhs": 61.4
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "bhubaneswar": {
+    "district": "Bhubaneswar",
+    "state": "Odisha",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3750,
+    "cagr_percent": 7.6,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4035,
+        "optimistic_rate_sqft": 4129,
+        "cautious_rate_sqft": 3960,
+        "projected_2bhk_lakhs": 43.0
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4342,
+        "optimistic_rate_sqft": 4546,
+        "cautious_rate_sqft": 4182,
+        "projected_2bhk_lakhs": 46.3
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4672,
+        "optimistic_rate_sqft": 5005,
+        "cautious_rate_sqft": 4416,
+        "projected_2bhk_lakhs": 49.8
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5027,
+        "optimistic_rate_sqft": 5510,
+        "cautious_rate_sqft": 4663,
+        "projected_2bhk_lakhs": 53.6
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5409,
+        "optimistic_rate_sqft": 6067,
+        "cautious_rate_sqft": 4924,
+        "projected_2bhk_lakhs": 57.7
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "patna": {
+    "district": "Patna",
+    "state": "Bihar",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4200,
+    "cagr_percent": 6.2,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4460,
+        "optimistic_rate_sqft": 4565,
+        "cautious_rate_sqft": 4376,
+        "projected_2bhk_lakhs": 48.9
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4737,
+        "optimistic_rate_sqft": 4963,
+        "cautious_rate_sqft": 4560,
+        "projected_2bhk_lakhs": 51.9
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5031,
+        "optimistic_rate_sqft": 5394,
+        "cautious_rate_sqft": 4752,
+        "projected_2bhk_lakhs": 55.1
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5343,
+        "optimistic_rate_sqft": 5864,
+        "cautious_rate_sqft": 4951,
+        "projected_2bhk_lakhs": 58.5
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 5674,
+        "optimistic_rate_sqft": 6374,
+        "cautious_rate_sqft": 5159,
+        "projected_2bhk_lakhs": 62.1
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "dehradun": {
+    "district": "Dehradun",
+    "state": "Uttarakhand",
+    "tier": "Tier-2",
+    "current_rate_sqft": 4300,
+    "cagr_percent": 8.0,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 4644,
+        "optimistic_rate_sqft": 4752,
+        "cautious_rate_sqft": 4558,
+        "projected_2bhk_lakhs": 49.7
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 5016,
+        "optimistic_rate_sqft": 5250,
+        "cautious_rate_sqft": 4831,
+        "projected_2bhk_lakhs": 53.7
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 5417,
+        "optimistic_rate_sqft": 5802,
+        "cautious_rate_sqft": 5121,
+        "projected_2bhk_lakhs": 57.9
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 5850,
+        "optimistic_rate_sqft": 6411,
+        "cautious_rate_sqft": 5429,
+        "projected_2bhk_lakhs": 62.6
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 6318,
+        "optimistic_rate_sqft": 7084,
+        "cautious_rate_sqft": 5754,
+        "projected_2bhk_lakhs": 67.6
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  },
+  "guwahati": {
+    "district": "Guwahati",
+    "state": "Assam",
+    "tier": "Tier-2",
+    "current_rate_sqft": 3600,
+    "cagr_percent": 6.5,
+    "projections": [
+      {
+        "year_index": 1,
+        "year_name": "Year 1 (2027)",
+        "base_rate_sqft": 3834,
+        "optimistic_rate_sqft": 3924,
+        "cautious_rate_sqft": 3762,
+        "projected_2bhk_lakhs": 40.5
+      },
+      {
+        "year_index": 2,
+        "year_name": "Year 2 (2028)",
+        "base_rate_sqft": 4083,
+        "optimistic_rate_sqft": 4277,
+        "cautious_rate_sqft": 3931,
+        "projected_2bhk_lakhs": 43.1
+      },
+      {
+        "year_index": 3,
+        "year_name": "Year 3 (2029)",
+        "base_rate_sqft": 4349,
+        "optimistic_rate_sqft": 4662,
+        "cautious_rate_sqft": 4108,
+        "projected_2bhk_lakhs": 45.9
+      },
+      {
+        "year_index": 4,
+        "year_name": "Year 4 (20210)",
+        "base_rate_sqft": 4631,
+        "optimistic_rate_sqft": 5082,
+        "cautious_rate_sqft": 4293,
+        "projected_2bhk_lakhs": 48.9
+      },
+      {
+        "year_index": 5,
+        "year_name": "Year 5 (20211)",
+        "base_rate_sqft": 4932,
+        "optimistic_rate_sqft": 5539,
+        "cautious_rate_sqft": 4486,
+        "projected_2bhk_lakhs": 52.1
+      }
+    ],
+    "disclaimer": "Projection based on compound econometric growth modeling. Not a statutory price guarantee."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Griha Mitra (गृह मित्र)",
+  "subtitle": "Directorate AI Real Estate Assistant (Demo)",
+  "launcherLabel": "Ask Griha Mitra",
+  "placeholder": "Ask in English, हिन्दी, or Hinglish...",
+  "offlineBanner": "Basic mode: AI assistant offline.",
+  "privacyNotice": "Do not share personal info (Aadhaar, PAN, OTP, Bank details).",
+  "clearChat": "Clear Conversation",
+  "send": "Send message",
+  "listening": "Listening... Speak now",
+  "speak": "Read Aloud",
+  "copied": "Copied to clipboard!",
+  "copy": "Copy Response",
+  "feedbackPositive": "Helpful response",
+  "feedbackNegative": "Not helpful",
+  "estimateCard": {
+    "title": "Indicative Valuation Summary",
+    "indicativeDisclaimer": "This is an indicative advisory estimate, not a legal appraisal.",
+    "viewReport": "Open in Estimator",
+    "pricePerSqft": "Unit Rate",
+    "range": "90% Confidence Range"
+  },
+  "quickReplies": {
+    "estimate": "Estimate my house price",
+    "howItWorks": "How does it work?",
+    "compare": "Compare two cities",
+    "rera": "What is RERA?"
+  }
+}

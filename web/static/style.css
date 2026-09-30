@@ -1,0 +1,29 @@
+/* Custom Styles & Animation for EstateAI */
+html {
+    scroll-behavior: smooth;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #2563EB;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.4);
+    border: 2px solid white;
+}
+
+input[type=range]#qualSlider::-webkit-slider-thumb {
+    background: #F59E0B;
+    box-shadow: 0 2px 6px rgba(245, 158, 11, 0.4);
+}
+
+.price-pulse {
+    animation: priceHighlight 0.4s ease-in-out;
+}
+
+@keyframes priceHighlight {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); color: #38BDF8; }
+    100% { transform: scale(1); }
+}

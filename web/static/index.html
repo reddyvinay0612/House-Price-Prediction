@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstateAI - House Price Prediction & Valuation System</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-['Plus_Jakarta_Sans',sans-serif] antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 transition-all shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+                    <i class="fa-solid fa-house-chimney text-lg"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold bg-gradient-to-r from-blue-700 via-indigo-700 to-sky-600 bg-clip-text text-transparent">EstateAI</span>
+                    <span class="text-xs ml-1.5 px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-semibold border border-blue-200">ML Valuation</span>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-1 text-sm font-semibold text-slate-600">
+                <a href="#estimator" class="px-3.5 py-2 rounded-lg hover:text-blue-600 hover:bg-slate-100/80 transition">Estimator</a>
+                <a href="#benchmarks" class="px-3.5 py-2 rounded-lg hover:text-blue-600 hover:bg-slate-100/80 transition">Model Benchmarks</a>
+                <a href="#analytics" class="px-3.5 py-2 rounded-lg hover:text-blue-600 hover:bg-slate-100/80 transition">Data Analytics</a>
+                <a href="#importance" class="px-3.5 py-2 rounded-lg hover:text-blue-600 hover:bg-slate-100/80 transition">Feature Insights</a>
+                <a href="#research" class="px-3.5 py-2 rounded-lg hover:text-blue-600 hover:bg-slate-100/80 transition">Research Report</a>
+            </nav>
+
+            <div class="flex items-center space-x-3">
+                <div class="hidden sm:flex items-center space-x-2 text-xs font-medium px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                    <span>9 Models Active</span>
+                </div>
+                <a href="#estimator" class="px-4 py-2 text-sm font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl hover:shadow-lg hover:shadow-blue-500/25 transition">
+                    Estimate Price
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-indigo-900 via-slate-900 to-slate-950 text-white py-16 lg:py-24">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/10 border border-white/15 text-xs text-sky-300 font-medium">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Ames Iowa & California Housing Intelligence</span>
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        Predict House Values with <span class="bg-gradient-to-r from-sky-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent">Multi-Algorithm ML</span>
+                    </h1>
+                    <p class="text-slate-300 text-lg sm:text-xl font-normal max-w-2xl leading-relaxed">
+                        End-to-end automated residential valuation engine comparing Gradient Boosting, XGBoost, Random Forests, Ridge/Lasso, Deep MLP, and LSTM sequence neural networks with leak-free preprocessing.
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#estimator" class="px-6 py-3.5 rounded-xl font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition flex items-center space-x-2">
+                            <span>Open Valuation Studio</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="#benchmarks" class="px-6 py-3.5 rounded-xl font-bold bg-white/10 hover:bg-white/15 text-slate-200 border border-white/10 transition">
+                            View 9-Model Leaderboard
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5">
+                    <!-- Key KPI Stats Cards -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
+                            <div class="text-sky-400 text-2xl font-black">0.9435</div>
+                            <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mt-1">Best Test R² Score</div>
+                            <div class="text-xs text-slate-400 mt-2">Gradient Boosting (GBR)</div>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
+                            <div class="text-emerald-400 text-2xl font-black">$13,929</div>
+                            <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mt-1">Mean Absolute Error</div>
+                            <div class="text-xs text-slate-400 mt-2">Dollar inverse-transformed</div>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
+                            <div class="text-indigo-400 text-2xl font-black">5-Fold CV</div>
+                            <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mt-1">Leakage-Free Validation</div>
+                            <div class="text-xs text-slate-400 mt-2">0.1226 CV log-RMSE</div>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
+                            <div class="text-amber-400 text-2xl font-black">80+ Features</div>
+                            <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mt-1">Continuous & Categorical</div>
+                            <div class="text-xs text-slate-400 mt-2">Domain engineered</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 1: Interactive Valuation Studio -->
+    <section id="estimator" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-blue-600 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">Interactive Valuation Studio</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Estimate Residential Fair Market Value</h2>
+                <p class="text-slate-600 text-base mt-2">Configure property specifications below to generate instantaneous valuation predictions across any of our 9 trained machine learning algorithms.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8 items-start">
+                <!-- Left Input Controls Form -->
+                <div class="lg:col-span-7 bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200/80 space-y-6">
+                    <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm">1</div>
+                            <h3 class="font-bold text-slate-800 text-lg">Property Specifications</h3>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <label for="modelSelect" class="text-xs font-bold text-slate-500">Model:</label>
+                            <select id="modelSelect" class="text-xs font-semibold bg-slate-100 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                                <option value="Gradient Boosting" selected>Gradient Boosting (R² 0.943)</option>
+                                <option value="XGBoost">XGBoost Regressor (R² 0.941)</option>
+                                <option value="Random Forest">Random Forest (1200 Trees) (R² 0.918)</option>
+                                <option value="Ridge Regression">Ridge Regression (R² 0.941)</option>
+                                <option value="Lasso Regression">Lasso Regression (R² 0.940)</option>
+                                <option value="Linear Regression">Linear Regression (OLS) (R² 0.932)</option>
+                                <option value="Multi-Layer Perceptron (MLP)">Multi-Layer Perceptron (MLP)</option>
+                                <option value="LSTM Regressor">LSTM Regressor</option>
+                                <option value="Decision Tree">Decision Tree Regressor</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Living Area Slider -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <label class="text-sm font-bold text-slate-700 flex items-center space-x-2">
+                                <i class="fa-solid fa-ruler-combined text-blue-500 text-xs"></i>
+                                <span>Above Ground Living Area (GrLivArea)</span>
+                            </label>
+                            <span id="sqftDisplay" class="text-sm font-extrabold text-blue-600 bg-blue-50 px-2.5 py-0.5 rounded-lg border border-blue-200">1,800 sq ft</span>
+                        </div>
+                        <input type="range" id="sqftSlider" min="500" max="4500" value="1800" step="25" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600">
+                        <div class="flex justify-between text-[11px] text-slate-400 mt-1">
+                            <span>500 sq ft</span>
+                            <span>2,500 sq ft</span>
+                            <span>4,500 sq ft</span>
+                        </div>
+                    </div>
+
+                    <!-- Overall Quality -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <label class="text-sm font-bold text-slate-700 flex items-center space-x-2">
+                                <i class="fa-solid fa-star text-amber-500 text-xs"></i>
+                                <span>Overall Material & Finish Quality (1 - 10)</span>
+                            </label>
+                            <span id="qualDisplay" class="text-sm font-extrabold text-amber-600 bg-amber-50 px-2.5 py-0.5 rounded-lg border border-amber-200">Grade 7 - Good</span>
+                        </div>
+                        <input type="range" id="qualSlider" min="1" max="10" value="7" step="1" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-amber-500">
+                    </div>
+
+                    <!-- Basement & Garage Area -->
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <div class="flex justify-between text-xs font-bold text-slate-700 mb-1">
+                                <span>Basement Area</span>
+                                <span id="bsmtDisplay" class="text-blue-600">1,000 sq ft</span>
+                            </div>
+                            <input type="range" id="bsmtSlider" min="0" max="3000" value="1000" step="50" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600">
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs font-bold text-slate-700 mb-1">
+                                <span>Garage Area</span>
+                                <span id="garageDisplay" class="text-blue-600">500 sq ft</span>
+                            </div>
+                            <input type="range" id="garageSlider" min="0" max="1400" value="500" step="25" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600">
+                        </div>
+                    </div>
+
+                    <!-- Bathrooms, Rooms, Garage Cars -->
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 text-center">
+                            <label class="block text-[11px] font-bold text-slate-500 uppercase">Garage Cars</label>
+                            <select id="carsSelect" class="mt-1 font-bold text-sm bg-white border border-slate-300 rounded-lg p-1.5 w-full text-center">
+                                <option value="0">0 Cars</option>
+                                <option value="1">1 Car</option>
+                                <option value="2" selected>2 Cars</option>
+                                <option value="3">3 Cars</option>
+                                <option value="4">4 Cars</option>
+                            </select>
+                        </div>
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 text-center">
+                            <label class="block text-[11px] font-bold text-slate-500 uppercase">Full Baths</label>
+                            <select id="bathsSelect" class="mt-1 font-bold text-sm bg-white border border-slate-300 rounded-lg p-1.5 w-full text-center">
+                                <option value="1">1 Bath</option>
+                                <option value="2" selected>2 Baths</option>
+                                <option value="3">3 Baths</option>
+                                <option value="4">4 Baths</option>
+                            </select>
+                        </div>
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-200 text-center">
+                            <label class="block text-[11px] font-bold text-slate-500 uppercase">Total Rooms</label>
+                            <select id="roomsSelect" class="mt-1 font-bold text-sm bg-white border border-slate-300 rounded-lg p-1.5 w-full text-center">
+                                <option value="4">4 Rooms</option>
+                                <option value="5">5 Rooms</option>
+                                <option value="6">6 Rooms</option>
+                                <option value="7" selected>7 Rooms</option>
+                                <option value="8">8 Rooms</option>
+                                <option value="9">9 Rooms</option>
+                                <option value="10">10+ Rooms</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Year Built, Remodeled, Neighborhood -->
+                    <div class="grid sm:grid-cols-3 gap-3">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Year Built</label>
+                            <input type="number" id="yearBuiltInput" value="2005" min="1880" max="2026" class="w-full text-sm font-semibold p-2 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Year Remodeled</label>
+                            <input type="number" id="yearRemodInput" value="2008" min="1950" max="2026" class="w-full text-sm font-semibold p-2 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Neighborhood</label>
+                            <select id="neighborhoodSelect" class="w-full text-sm font-semibold p-2 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500">
+                                <option value="CollgCr" selected>College Creek (CollgCr)</option>
+                                <option value="NridgHt">Northridge Heights (NridgHt)</option>
+                                <option value="NoRidge">Northridge (NoRidge)</option>
+                                <option value="Somerst">Somerset (Somerst)</option>
+                                <option value="Gilbert">Gilbert</option>
+                                <option value="Sawyer">Sawyer</option>
+                                <option value="NAmes">North Ames (NAmes)</option>
+                                <option value="OldTown">Old Town (OldTown)</option>
+                                <option value="Edwards">Edwards</option>
+                                <option value="StoneBr">Stone Brook (StoneBr)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Material Grades -->
+                    <div class="grid sm:grid-cols-2 gap-3 pt-2">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Kitchen Quality</label>
+                            <select id="kitchenQualSelect" class="w-full text-sm font-semibold p-2 bg-slate-50 border border-slate-300 rounded-xl">
+                                <option value="Ex">Excellent (Ex)</option>
+                                <option value="Gd" selected>Good (Gd)</option>
+                                <option value="TA">Typical / Average (TA)</option>
+                                <option value="Fa">Fair (Fa)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">Exterior Material Quality</label>
+                            <select id="exterQualSelect" class="w-full text-sm font-semibold p-2 bg-slate-50 border border-slate-300 rounded-xl">
+                                <option value="Ex">Excellent (Ex)</option>
+                                <option value="Gd" selected>Good (Gd)</option>
+                                <option value="TA">Typical / Average (TA)</option>
+                                <option value="Fa">Fair (Fa)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="predictBtn" class="w-full py-4 rounded-2xl bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-base shadow-lg shadow-blue-500/25 transition transform active:scale-[0.99] flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Calculate Valuation Prediction</span>
+                    </button>
+                </div>
+
+                <!-- Right Prediction Results Panel -->
+                <div class="lg:col-span-5 space-y-6">
+                    <!-- Valuation Display Card -->
+                    <div class="bg-gradient-to-br from-slate-900 via-indigo-950 to-blue-950 rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden border border-slate-800">
+                        <div class="absolute -right-12 -top-12 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <span class="text-xs font-bold uppercase tracking-wider text-sky-400">Estimated Market Valuation</span>
+                                <div id="predictedPriceText" class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-1 text-white">
+                                    $228,450
+                                </div>
+                            </div>
+                            <span id="activeModelBadge" class="text-xs font-bold px-2.5 py-1 rounded-full bg-blue-500/20 text-sky-300 border border-blue-400/30">
+                                Gradient Boosting
+                            </span>
+                        </div>
+
+                        <!-- 90% Confidence Interval Range -->
+                        <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center text-xs">
+                            <span class="text-slate-400">Fair Market Range (90% Conf.):</span>
+                            <span id="priceRangeText" class="font-bold text-emerald-400">$205,605 - $251,295</span>
+                        </div>
+
+                        <div class="mt-2 flex justify-between items-center text-xs">
+                            <span class="text-slate-400">Estimated Price per Sq Ft:</span>
+                            <span id="pricePerSqftText" class="font-bold text-sky-300">$126.92 / sq ft</span>
+                        </div>
+
+                        <!-- Mini Financial Monthly Breakdown -->
+                        <div class="mt-6 p-4 rounded-2xl bg-white/5 border border-white/10 space-y-2">
+                            <div class="text-xs font-bold uppercase tracking-wider text-slate-300 flex justify-between">
+                                <span>Estimated Monthly Payment</span>
+                                <span id="monthlyTotalText" class="text-emerald-400 font-extrabold text-sm">$1,485 / mo</span>
+                            </div>
+                            <div class="grid grid-cols-3 gap-2 pt-1 text-[11px] text-slate-400">
+                                <div>Principal & Int: <b id="mortgageText" class="text-slate-200 block">$1,155</b></div>
+                                <div>Prop Tax: <b id="taxText" class="text-slate-200 block">$285</b></div>
+                                <div>Insurance: <b id="insText" class="text-slate-200 block">$45</b></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Property Attribute Radar Chart -->
+                    <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-sm font-extrabold text-slate-800">Property Attribute Profile</h4>
+                            <span class="text-xs text-slate-400">vs. Market Average (50)</span>
+                        </div>
+                        <div class="h-64 flex items-center justify-center">
+                            <canvas id="radarChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: 9-Model Benchmark Leaderboard -->
+    <section id="benchmarks" class="py-16 bg-white border-y border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-indigo-600 bg-indigo-50 border border-indigo-200 px-3 py-1 rounded-full">Empirical Benchmarks</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Machine Learning Algorithm Comparison</h2>
+                <p class="text-slate-600 text-base mt-2">Evaluation results on the 20% holdout test set with predictions inverse-transformed to USD dollars, paired with 5-fold cross-validation on the Ames dataset.</p>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm mb-12">
+                <table class="w-full text-left text-sm">
+                    <thead class="bg-slate-100/90 text-slate-700 font-bold uppercase text-xs border-b border-slate-200">
+                        <tr>
+                            <th class="py-4 px-6">Algorithm Model</th>
+                            <th class="py-4 px-6">Test R² Score</th>
+                            <th class="py-4 px-6">Test RMSE ($ USD)</th>
+                            <th class="py-4 px-6">Test MAE ($ USD)</th>
+                            <th class="py-4 px-6">5-Fold CV RMSE</th>
+                            <th class="py-4 px-6">Latency</th>
+                            <th class="py-4 px-6">Tier</th>
+                        </tr>
+                    </thead>
+                    <tbody id="benchmarkTableBody" class="divide-y divide-slate-200 font-medium">
+                        <!-- Populated dynamically via app.js -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Benchmark Comparison Charts -->
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="bg-slate-50 rounded-3xl p-6 border border-slate-200">
+                    <h4 class="font-bold text-slate-800 text-base mb-4 flex items-center space-x-2">
+                        <i class="fa-solid fa-chart-simple text-blue-600"></i>
+                        <span>Test R² Score (Higher is Better)</span>
+                    </h4>
+                    <div class="h-72">
+                        <canvas id="r2BarChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-slate-50 rounded-3xl p-6 border border-slate-200">
+                    <h4 class="font-bold text-slate-800 text-base mb-4 flex items-center space-x-2">
+                        <i class="fa-solid fa-arrow-trend-down text-emerald-600"></i>
+                        <span>Test RMSE in Dollars ($ Lower is Better)</span>
+                    </h4>
+                    <div class="h-72">
+                        <canvas id="rmseBarChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Exploratory Data Analytics (EDA) -->
+    <section id="analytics" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">Data Exploration</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Statistical Profile & Feature Insights</h2>
+                <p class="text-slate-600 text-base mt-2">Analysis of target distribution, skewness correction, and Pearson correlation coefficients across 1,460 residential properties.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8 mb-12">
+                <!-- Top 10 Correlated Features -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-sm">
+                    <h4 class="font-bold text-slate-800 text-base mb-4">Top Correlated Features with SalePrice (Pearson r)</h4>
+                    <div class="h-72">
+                        <canvas id="corrBarChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Neighborhood Average Prices -->
+                <div class="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-sm">
+                    <h4 class="font-bold text-slate-800 text-base mb-4">Average SalePrice by Neighborhood ($ USD)</h4>
+                    <div class="h-72">
+                        <canvas id="neighborhoodChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Price vs Living Area Scatter -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+                    <div>
+                        <h4 class="font-bold text-slate-800 text-lg">SalePrice vs. Living Area (GrLivArea sq ft)</h4>
+                        <p class="text-xs text-slate-500">Scatter distribution with active property marker.</p>
+                    </div>
+                    <div class="flex items-center space-x-3 text-xs font-semibold mt-2 sm:mt-0">
+                        <span class="inline-flex items-center text-blue-600"><span class="w-2.5 h-2.5 rounded-full bg-blue-500 mr-1.5"></span>Historical Sales</span>
+                        <span class="inline-flex items-center text-red-600"><span class="w-2.5 h-2.5 rounded-full bg-red-500 mr-1.5 animate-ping"></span>Current Input</span>
+                    </div>
+                </div>
+                <div class="h-80">
+                    <canvas id="scatterChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Feature Importance & Explainability -->
+    <section id="importance" class="py-16 bg-white border-y border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-extrabold uppercase tracking-widest text-purple-600 bg-purple-50 border border-purple-200 px-3 py-1 rounded-full">Model Explainability</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Feature Importance & Decision Drivers</h2>
+                <p class="text-slate-600 text-base mt-2">Global importance rankings extracted from Random Forest and XGBoost ensemble tree splits.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Driver Cards -->
+                <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center font-black text-xl mb-4">1</div>
+                    <h4 class="font-bold text-slate-900 text-lg">Overall Material Quality</h4>
+                    <p class="text-sm text-slate-600 mt-2">OverallQual accounts for over 40% of tree split gains. Superior construction quality (Grades 8-10) commands exponential valuation premiums.</p>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200">
+                    <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center font-black text-xl mb-4">2</div>
+                    <h4 class="font-bold text-slate-900 text-lg">Total Usable Square Footage</h4>
+                    <p class="text-sm text-slate-600 mt-2">Combined surface area (TotalSF = Above Ground + Finished Basement) establishes the primary linear baseline of price scale.</p>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-black text-xl mb-4">3</div>
+                    <h4 class="font-bold text-slate-900 text-lg">Garage & Construction Era</h4>
+                    <p class="text-sm text-slate-600 mt-2">Garage capacity (2-3 cars) and post-2000 modern construction year act as strong tier filters separating premium sub-markets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Research & Architecture -->
+    <section id="research" class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-slate-900 via-slate-950 to-indigo-950 rounded-3xl p-8 sm:p-12 text-white border border-slate-800">
+                <div class="max-w-3xl">
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-sky-400">Academic Project Outline</span>
+                    <h2 class="text-3xl font-extrabold tracking-tight mt-2">Methodology & Research Highlights</h2>
+                    <p class="text-slate-300 text-sm sm:text-base mt-4 leading-relaxed">
+                        This system implements a zero-leakage pipeline adhering to peer-reviewed regression methodologies:
+                    </p>
+                    <ul class="mt-6 space-y-3 text-sm text-slate-300">
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-emerald-400 mt-1"></i>
+                            <span><b>Target Normalization:</b> Applied \(y_{log} = \ln(1 + \text{SalePrice})\) to eliminate positive skewness and stabilize variance.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-emerald-400 mt-1"></i>
+                            <span><b>Outlier Filtering:</b> Removed severe non-arms-length transactions (GrLivArea > 4000 sq ft with SalePrice < $300k).</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-check-circle text-emerald-400 mt-1"></i>
+                            <span><b>Domain Feature Synthesis:</b> Engineered TotalSF, TotalBath, HouseAge, RemodAge, and TotalPorchSF.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-10 text-center text-xs text-slate-500 font-medium">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+            <div class="flex items-center space-x-2">
+                <div class="w-6 h-6 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <span class="font-bold text-slate-700">EstateAI Pro Machine Learning Valuation System</span>
+            </div>
+            <div>
+                <span>Ames, Iowa & California Housing Benchmarks • Python 3.10+ • FastAPI • scikit-learn • XGBoost</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Frontend Script -->
+    <script src="/static/app.js"></script>
+</body>
+</html>

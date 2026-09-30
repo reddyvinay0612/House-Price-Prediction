@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+portal/node_modules/
+web/node_modules/
+
+# Python cache & virtual environments
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts & distribution
+dist/
+portal/dist/
+build/
+*.egg-info/
+.vite/
+
+# Environment Variables & API Keys
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

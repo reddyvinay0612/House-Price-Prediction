@@ -1,0 +1,7 @@
+model,r2,rmseLakhs,maeLakhs,cvScore,isChampion
+Linear Regression (OLS),0.8941,20.65,11.74,0.9345,False
+Ridge Regression (L2),0.8942,20.64,11.74,0.9345,False
+Lasso Regression (L1),0.8955,20.51,11.84,0.9333,False
+Random Forest (800 Trees),0.964,12.03,8.55,0.9711,False
+Gradient Boosting Regressor,0.9713,10.74,7.66,0.9771,True
+XGBoost Regressor,0.9712,10.76,7.69,0.9772,False

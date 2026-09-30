@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "id": "greeting",
+      "keywords": ["hello", "hi", "hey", "namaste", "namaskar", "kese ho", "help", "who are you", "griha mitra", "kaun ho", "namaste ji", "shuru", "start"],
+      "response_en": "Namaste! I am **Griha Mitra** (गृह मित्र), your AI assistant from the Directorate of Housing Analytics. I can help you calculate property valuations, explain real estate terms (RERA, Carpet vs Super Built-up, Stamp duty), compare cities & districts, and guide you across the portal. How may I assist you today?",
+      "response_hi": "नमस्ते! मैं **गृह मित्र** हूँ, आवास विश्लेषिकी निदेशालय का एआई सहायक। मैं संपत्ति का अनुमानित मूल्य निकालने, रियल एस्टेट शब्दावली (RERA, कारपेट बनाम सुपर बिल्ट-अप, स्टाम्प शुल्क) समझाने और शहरों की तुलना करने में आपकी सहायता कर सकता हूँ। बताएं, मैं आपकी क्या मदद करूँ?",
+      "suggestions": ["Estimate my house price", "How does estimation work?", "What is RERA?", "Compare two cities"]
+    },
+    {
+      "id": "how_it_works",
+      "keywords": ["how it works", "how does it work", "methodology", "algorithm", "kaise kaam karta hai", "karya pranali", "process", "kaise calculate", "how calculate", "estimation process"],
+      "response_en": "Our valuation engine uses calibrated Machine Learning models (Gradient Boosting Regressor with **97.13% R² accuracy** and **₹10.74 Lakh RMSE**) trained on verified Indian residential transaction data. We evaluate:\n1. **Location & Locality tier** (Metro / Regional growth)\n2. **Total Area** (in sq. ft.)\n3. **Layout** (BHK configuration, Bathrooms, Balconies)\n4. **Status** (Ready to Move vs Under Construction)\n\n*Note: Estimates are indicative advisory benchmarks, not legal appraisals.*",
+      "response_hi": "हमारा मूल्यांकन इंजन सत्यापित भारतीय आवास डेटा पर प्रशिक्षित कैलिब्रेटेड मशीन लर्निंग मॉडल (ग्रेडिएंट बूस्टिंग रिग्रेसर - **97.13% R² सटीकता**) का उपयोग करता है। यह 4 प्रमुख घटकों का विश्लेषण करता है:\n1. **स्थान और इलाका**\n2. **कुल क्षेत्रफल (वर्ग फुट)**\n3. **कमरों की संख्या (BHK, स्नानघर)**\n4. **निर्माण स्थिति**\n\n*ध्यान दें: यह सांकेतिक अनुमान है, कानूनी मूल्यांकन नहीं।*",
+      "suggestions": ["Estimate my house price", "What is R² and RMSE?", "What is Carpet Area?", "Take me to Estimate"]
+    },
+    {
+      "id": "carpet_vs_super_builtup",
+      "keywords": ["carpet", "super built-up", "builtup", "super built up", "carpet area", "usable area", "difference", "carpet vs super", "plinth"],
+      "response_en": "**Carpet Area vs Super Built-up Area Explained:**\n- **Carpet Area**: The actual net usable floor area inside your apartment walls (where you can lay a carpet). Under RERA, all properties must be sold strictly on Net Carpet Area.\n- **Built-up Area**: Carpet Area + thickness of inner/outer walls + balcony area (usually ~10-15% more).\n- **Super Built-up Area**: Built-up area + proportionate share of common areas like lobbies, lifts, staircases, and clubhouse (typically 20-30% higher).",
+      "response_hi": "**कारपेट एरिया बनाम सुपर बिल्ट-अप एरिया:**\n- **कारपेट एरिया**: दीवारों के अंदर का वास्तविक उपयोग योग्य फर्श क्षेत्र। रेरा (RERA) के अनुसार, बिक्री केवल कारपेट एरिया पर होनी चाहिए।\n- **बिल्ट-अप एरिया**: कारपेट एरिया + दीवारों की मोटाई और बालकनी (लगभग 10-15% अधिक)।\n- **सुपर बिल्ट-अप एरिया**: बिल्ट-अप एरिया + लॉबी, लिफ्ट, सीढ़ियों आदि का आनुपातिक हिस्सा (20-30% अधिक)।",
+      "suggestions": ["What is RERA?", "Estimate my house price", "What is Stamp Duty?"]
+    },
+    {
+      "id": "rera_info",
+      "keywords": ["rera", "rera registration", "rera act", "rera guidelines", "rera kya hai", "rera rule", "builder", "complaint", "statutory"],
+      "response_en": "**Real Estate (Regulation & Development) Act (RERA), 2016:**\n- Mandates project registration for developments >500 sq. meters or >8 apartments.\n- Builders must deposit **70% of buyer funds** into a dedicated escrow account for construction.\n- Projects must be priced and registered on **Net Carpet Area**.\n- Fast-track grievance redressal through State RERA Authorities and Appellate Tribunals.\n\n*Always verify the RERA Registration Number on your State RERA website before booking.*",
+      "response_hi": "**रेरा (RERA) अधिनियम, 2016 के मुख्य नियम:**\n- 500 वर्ग मीटर से अधिक या 8 से अधिक फ्लैटों वाले सभी प्रोजेक्ट्स का पंजीकरण अनिवार्य है।\n- बिल्डर को खरीदारों से प्राप्त **70% राशि समर्पित एस्क्रो खाते** में जमा करनी होती है।\n- फ्लैट की बिक्री केवल **नेट कारपेट एरिया** के आधार पर होनी चाहिए।\n- राज्य रेरा प्राधिकरण के माध्यम से त्वरित शिकायत निवारण।",
+      "suggestions": ["Carpet vs Super Built-up", "Stamp Duty in India", "Estimate my house price"]
+    },
+    {
+      "id": "stamp_duty",
+      "keywords": ["stamp duty", "registration", "stamp duty charges", "registry charges", "circle rate", "guidance value", "tax", "stamp shulk"],
+      "response_en": "**Stamp Duty & Registration Charges in India:**\n- **Stamp Duty**: State government transaction tax, typically ranging from **4% to 7%** of the property's registered value.\n- **Concessions**: Many states offer a **1% to 2% discount** for female property owners (e.g. Delhi, Haryana, UP).\n- **Registration Fee**: Typically **1%** of the total property consideration or circle rate value.\n- Our tool automatically includes a ~6% statutory estimation in the valuation breakdown.",
+      "response_hi": "**भारत में स्टाम्प शुल्क और पंजीकरण शुल्क:**\n- **स्टाम्प शुल्क**: राज्य सरकार का कर, जो आमतौर पर संपत्ति मूल्य का **4% से 7%** होता है।\n- **महिला छूट**: कई राज्य महिला खरीदारों को **1% से 2% की छूट** देते हैं।\n- **पंजीकरण शुल्क**: संपत्ति के मूल्य का लगभग **1%**।\n- हमारा पोर्टल स्वचालित रूप से लगभग 6% स्टाम्प शुल्क की गणना दिखाता है।",
+      "suggestions": ["Home Loan & EMI", "Estimate my house price", "What is RERA?"]
+    },
+    {
+      "id": "home_loan_emi",
+      "keywords": ["emi", "home loan", "interest rate", "loan eligibility", "down payment", "bank loan", "mortgage", "kisht"],
+      "response_en": "**Home Loan & EMI Insights:**\n- **Standard Down Payment**: Indian lending institutions finance up to **75-80%** of the property value (RBI guidelines require 20% citizen equity).\n- **Indicative EMI**: For an 80% loan at **8.5% interest over 20 years**, the EMI is approx. **₹868 per ₹1 Lakh borrowed** (e.g. for a ₹50L loan, EMI is ~₹43,400/month).\n- You can see a complete EMI and down-payment breakdown immediately after running any valuation.",
+      "response_hi": "**होम लोन और ईएमआई (EMI) संबंधी जानकारी:**\n- **डाउन पेमेंट**: बैंक आमतौर पर संपत्ति मूल्य का **75-80%** तक ऋण देते हैं (20% स्वयं का योगदान जरूरी)।\n- **ईएमआई गणना**: 20 वर्षों के लिए 8.5% ब्याज दर पर, प्रति ₹1 लाख ऋण की ईएमआई लगभग **₹868/माह** होती है।\n- संपत्ति का मूल्यांकन करने पर पोर्टल पर विस्तृत ईएमआई विवरण उपलब्ध होता है।",
+      "suggestions": ["Estimate my house price", "Stamp Duty in India", "What is RERA?"]
+    },
+    {
+      "id": "model_metrics",
+      "keywords": ["r2", "rmse", "r2 score", "accuracy", "model performance", "metrics", "gradient boosting", "random forest", "satikta", "error"],
+      "response_en": "**Machine Learning Model Benchmarks:**\n- **Gradient Boosting Regressor (Champion)**: $R^2 = 97.13\\%$, $\\text{RMSE} = ₹10.74\\text{ Lakh}$, $\\text{MAE} = ₹4.55\\text{ Lakh}$.\n- **XGBoost Regressor**: $R^2 = 97.12\\%$, $\\text{RMSE} = ₹10.76\\text{ Lakh}$.\n- **Random Forest (1200 trees)**: $R^2 = 96.88\\%$, $\\text{RMSE} = ₹11.20\\text{ Lakh}$.\n\nGradient Boosting was chosen as the champion model because of its superior handling of non-linear micro-market price dynamics and robust residual distribution.",
+      "response_hi": "**मॉडल प्रदर्शन और मेट्रिक्स:**\n- **ग्रेडिएंट बूस्टिंग (चैंपियन मॉडल)**: $R^2 = 97.13\\%$, $\\text{RMSE} = ₹10.74\\text{ लाख}$।\n- **XGBoost**: $R^2 = 97.12\\%$, $\\text{RMSE} = ₹10.76\\text{ लाख}$।\n- **रैंडम फॉरेस्ट**: $R^2 = 96.88\\%$, $\\text{RMSE} = ₹11.20\\text{ लाख}$।\n\nग्रेडिएंट बूस्टिंग को इलाके के सूक्ष्म बाजार रुझानों को सबसे सटीक रूप से सीखने के कारण मुख्य मॉडल चुना गया है।",
+      "suggestions": ["Take me to Estimate", "How does estimation work?", "Compare two cities"]
+    },
+    {
+      "id": "compare_cities",
+      "keywords": ["compare", "bengaluru vs mumbai", "mumbai vs delhi", "hyderabad vs pune", "chennai vs kolkata", "city rates", "which city", "highest price"],
+      "response_en": "**Key City Real Estate Price Comparison (2026 Benchmarks):**\n- **Mumbai (MMR)**: ₹19,500/sq.ft. avg (2BHK ~₹2.44 Cr)\n- **Delhi-NCR / Gurugram**: ₹8,900 – ₹11,200/sq.ft. (2BHK ~₹1.11 – ₹1.40 Cr)\n- **Bengaluru**: ₹6,850/sq.ft. avg (2BHK ~₹85.6 Lakh)\n- **Pune**: ₹6,400/sq.ft. avg (2BHK ~₹80.0 Lakh)\n- **Chennai**: ₹6,200/sq.ft. avg (2BHK ~₹77.5 Lakh)\n- **Hyderabad**: ₹5,900/sq.ft. avg (2BHK ~₹73.8 Lakh)\n- **Kolkata**: ₹4,600/sq.ft. avg (2BHK ~₹57.5 Lakh)\n- **Mysuru / Tier-2 Hubs**: ₹3,800/sq.ft. avg (2BHK ~₹47.5 Lakh)",
+      "response_hi": "**प्रमुख शहरों के आवास दरों की तुलना (2026 मानक):**\n- **मुंबई (MMR)**: ₹19,500/वर्ग फुट (2BHK ~₹2.44 करोड़)\n- **दिल्ली-एनसीआर / गुरुग्राम**: ₹8,900 – ₹11,200/वर्ग फुट\n- **बेंगलुरु**: ₹6,850/वर्ग फुट (2BHK ~₹85.6 लाख)\n- **पुणे**: ₹6,400/वर्ग फुट (2BHK ~₹80.0 लाख)\n- **चेन्नई**: ₹6,200/वर्ग फुट (2BHK ~₹77.5 लाख)\n- **हैदराबाद**: ₹5,900/वर्ग फुट (2BHK ~₹73.8 लाख)\n- **कोलकाता**: ₹4,600/वर्ग फुट (2BHK ~₹57.5 लाख)\n- **मैसूरु / टियर-2**: ₹3,800/वर्ग फुट (2BHK ~₹47.5 लाख)",
+      "suggestions": ["Estimate my house price", "Take me to City Trends", "What is RERA?"]
+    },
+    {
+      "id": "navigate_estimate",
+      "keywords": ["take me to estimate", "open estimate", "estimate page", "calculate price", "calculator", "price check", "mulya anuman"],
+      "response_en": "Navigating to the **Automated Property Valuation Service** page. You can configure your city, locality, sq.ft., and BHK layout there.",
+      "response_hi": "**स्वचालित संपत्ति मूल्यांकन सेवा** पृष्ठ पर ले जाया जा रहा है।",
+      "action": { "type": "navigate", "target": "/estimate" },
+      "suggestions": ["Estimate my house price", "How does it work?"]
+    },
+    {
+      "id": "navigate_trends",
+      "keywords": ["take me to city trends", "city trends", "open trends", "trends page", "shahar rujhan"],
+      "response_en": "Opening the **City Trends & Micro-Market Analysis** page.",
+      "response_hi": "**शहर रुझान और विश्लेषण** पृष्ठ खोला जा रहा है।",
+      "action": { "type": "navigate", "target": "/city-trends" },
+      "suggestions": ["Compare two cities", "Take me to Estimate"]
+    },
+    {
+      "id": "navigate_dashboard",
+      "keywords": ["take me to dashboard", "my estimates", "saved estimates", "dashboard", "citizen dashboard", "profile"],
+      "response_en": "Opening your **Citizen Dashboard & Saved Valuations**.",
+      "response_hi": "आपका **नागरिक डैशबोर्ड और सहेजे गए मूल्यांकन** खोला जा रहा है।",
+      "action": { "type": "navigate", "target": "/dashboard" },
+      "suggestions": ["Take me to Estimate", "How does it work?"]
+    }
+  ],
+  "default_response": {
+    "response_en": "I can help you with house price estimates across Indian cities & districts, explain real estate terms (RERA, Carpet vs Super Built-up, Stamp duty, EMI), compare micro-markets, and navigate portal tools. Could you please specify your question or the city you want to evaluate?",
+    "response_hi": "मैं भारतीय शहरों में आवास मूल्य अनुमान, रियल एस्टेट शब्दावली (RERA, कारपेट एरिया, स्टाम्प शुल्क), और तुलना में आपकी सहायता कर सकता हूँ। कृपया अपना प्रश्न या संबंधित शहर बताएं?",
+    "suggestions": ["Estimate my house price", "How does it work?", "Compare two cities", "What is RERA?"]
+  }
+}
